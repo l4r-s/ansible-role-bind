@@ -1,0 +1,22 @@
+$TTL 120
+@       IN      SOA     ns1.l4rs.net. admin.l4rs.net. (
+                         2017080601         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; name servers - NS records
+@      IN      NS      ns1.l4rs.net.
+
+
+192.168.15.32     IN      PTR        rproxy.l4rs.net.
+192.168.15.10     IN      PTR        pve.l4rs.net.
+192.168.15.21     IN      PTR        openhab.l4rs.net.
+192.168.55.90     IN      PTR        openelec.l4rs.net.
+192.168.15.37     IN      PTR        nodered.l4rs.net.
+192.168.15.33     IN      PTR        nextcloud.l4rs.net.
+192.168.15.11     IN      PTR        jump.l4rs.net.
+192.168.55.1      IN      PTR        fw.l4rs.net.
+192.168.22.90     IN      PTR        easybulb01.l4rs.net.
+192.168.22.80     IN      PTR        prom.l4rs.net.
